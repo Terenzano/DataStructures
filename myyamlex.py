@@ -8,6 +8,7 @@ print("\n")
 
 yaml_python = yaml.load(yml_example)
 pprint(yaml_python)
+print(type(yaml_python))
 
 print("\n")
 
