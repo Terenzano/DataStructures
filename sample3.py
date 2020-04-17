@@ -6,6 +6,6 @@ stream = open('sample.xml','r')
 #Parse the XML file into an 'OderedDict'
 xml = xmltodict.parse(stream.read())
 
-for e in xml:
+for e in xml["People"]["Person"]:
     print(e)
 
