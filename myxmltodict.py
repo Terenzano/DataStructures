@@ -8,6 +8,10 @@ print("\n")
 
 xml_dict = xmltodict.parse(xml_example)
 int_name = xml_dict["interface"]["name"]
+pprint(xml_dict)
+
+print("\n")
+
 pprint(int_name)
 
 print("\n")
